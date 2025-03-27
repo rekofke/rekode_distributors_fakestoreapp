@@ -41,6 +41,12 @@ const ProductList = () => {
                   >
                     View Details
                   </Link>
+                  <Link
+                    to={`/editproduct/${product.id}`}
+                    className="btn btn-warning btn-sm mt-2"
+                  >
+                    Edit
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>

@@ -246,6 +246,16 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+.img-thumbnail {
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.05s);
+}
+
 @media (max-width: 768px) {
   .add-product-form {
     margin: 1rem;

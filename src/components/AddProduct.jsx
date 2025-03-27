@@ -52,7 +52,6 @@ const AddProduct = () => {
     <Container className="mt-5">
       <h2>Add Product</h2>
 
-      {/* Success Alert */}
       {submitted && (
         <Alert variant="success">
           Product added successfully! <br />
