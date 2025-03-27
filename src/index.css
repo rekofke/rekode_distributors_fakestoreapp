@@ -256,6 +256,36 @@ h2 {
   transform: scale(1.05s);
 }
 
+.product-preview {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+  border-radius: 12px;
+  border: none;
+}
+
+.modal-header {
+  background: #dc3545;
+  color: white;
+  border-radius: 12px 12px 0 0;
+}
+
+.modal-title {
+  font-weight: 600;
+}
+
+.modal-body {
+  font-size: 1.1rem;
+  padding: 1.5rem;
+}
+
+
 @media (max-width: 768px) {
   .add-product-form {
     margin: 1rem;

@@ -47,6 +47,12 @@ const ProductList = () => {
                   >
                     Edit
                   </Link>
+                  <Link
+                    to={`/deleteproduct/${product.id}`}
+                    className="btn btn-danger btn-sm mt-2"
+                  >
+                    Delete
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
